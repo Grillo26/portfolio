@@ -7,10 +7,10 @@
 :root {
     --white: #FFFFFF;
     --light-grey: #D9D9D9;
-    --beaver: #A78976;
+    --beaver: #7494E4;
     --black: #141414;
-    --eerie-black: #1F1F1F;
-    --jet: #292929;
+    --eerie-black: hsl(207, 40%, 8%);
+    --jet: #000000;
 }
 
 * {
@@ -277,7 +277,7 @@ span+span {
 }
 
 .image_home {
-    max-width: 65%;
+    max-width: 75%;
     transition: .4s;
     animation: image 2s;
 }
@@ -428,7 +428,7 @@ span+span {
 .image_sobreMi {
     width: 65%;
     margin-bottom: 5rem;
-    border-bottom: 2px solid var(--jet);
+    
 }
 
 /* Habilidades */
@@ -693,7 +693,7 @@ img.logo-sena {
 }
 
 .container_btn--proyectos .btn_demo:hover {
-    background: #776254;
+    background: var(--white);
     box-shadow: 0px 13px 33px -14px rgba(0,0,0,0.75);
     transition: all .4s ease;
 }
@@ -815,13 +815,13 @@ img.logo-sena {
 }
 
 .btn_form--contacto button {
-    background: #776254;
+    background: var(--white);
     border: none;
     font-family: 'Cooper Hewitt';
     width: 20rem;
     padding: .8rem 1rem;
     border-radius: 1rem;
-    color: var(--white);
+    color: var(--jet);
     font-size: 1.8rem;
     letter-spacing: 1px;
     cursor: pointer;
@@ -829,8 +829,8 @@ img.logo-sena {
 }
 
 .btn_form--contacto button:hover {
-    background: #776254;
-    color: var(--black);
+    background: var(--jet);
+    color: var(--white);
     font-weight: bold;
     transform: scale(1.1);
     box-shadow: 0px 9px 15px -1px rgba(0,0,0,0.20);
@@ -911,7 +911,7 @@ footer {
 .go-top-button {
     width: 0rem;
     height: 0rem;
-    background: rgba(167, 137, 118, 1);
+    background: var(--beaver);
     box-shadow: 0px 6px 22px -6px rgba(0,0,0,0.75);
     border-radius: 50%;
     cursor: pointer;

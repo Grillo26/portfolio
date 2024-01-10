@@ -9,15 +9,15 @@
 
     "home": {
         "home_text-1": "Hi! I'm",
-        "home_text-3": "Front-End Web Developer",
-        "parrafo-info": "Statistics and programming student focused on Frontend Web Development. As a person who loves intuitive and aesthetically pleasing designs I seek to create projects that provide the best user experience.",
+        "home_text-3": "Front-back web developer",
+        "parrafo-info": "Computer engineering student focused on everything that has to do with programming. As a loving person to intuitive and aesthetically pleasant designs I seek to create projects that provide the best experience for the user",
         "cv_button": "Download CV",
         "contact_button": "Contact"
     },
 
     "sobre-mi": {
         "title": "About me",
-        "texto_sobreMi": "I'm a Statistics undergraduate student and a self-taught Web Development student focused on Frontend programming.<br>I aspire to get a job in the Web Development world, gain experience, new knowledge and strengthen my professional life.<br><br>I'm an empathetic and enthusiastic person, with skills focused on teamwork, assertive communication, problem solving, responsible and proactive, I like to learn from others and continuously improve myself."
+        "texto_sobreMi": "This is my name, I am a student in computer engineering and at the same time I continue to develop my skills through online courses and with real projects in different areas. I aspire , acquire experience, new knowledge and strengthen my professional life."
     },
 
     "habilidades": {
@@ -26,21 +26,52 @@
 
     "formacion": {
         "title": "Training",
-        "formacion1": "Statistic",
-        "tiempo-formacion1": "2019 - In progress",
-        "formacion2": "Full-Stack Developer",
-        "tiempo-formacion2": "2022 - In progress",
-        "formacion3": "Accounting for Commercial and Financial Transactions"
+        "formacion1": "Primary - Secondary",
+        "tiempo-formacion1": "2004 - 2015",
+        "formacion2": "Informatics Engineering",
+        "tiempo-formacion2": "2016 - 2024"
     },
 
     "proyectos": {
         "title": "Projects",
-        "title-proyecto1": "Hangman Game",
-        "info-proyecto1": "A game where the user must guess the secret word with a certain number of chances. The word is chosen randomly by the program and the user will lose the moment the gallows is completed.",
-        "title-proyecto2": "Portfolio",
-        "info-proyecto2": "My personal web portfolio, where you can find some of my most outstanding projects, my technical skills and a bit about my background.",
-        "title-proyecto3": "Text Encryptor",
-        "info-proyecto3": "An encryptor where the user can type a text and the encryptor encrypts it with pre-programmed keys. The encryptor can also decrypt the text."
+        "ver": "Watch",
+        "title-proyecto1": "CNS inventory management and control system",
+        "info-proyecto1": "Made with PHP and the Laravel Framework for the Yacuiba District Health Box",
+
+        "title-proyecto2": "Production control system",
+        "info-proyecto2": "Made with PHP and the Laravel framework aimed at industrial plant García and Jaramillo.",
+
+        "title-proyecto3": "Collection system and loans",
+        "info-proyecto3": "Control of money loans with cash closure per day and with weekly or monthly reports.",
+
+        "title-proyecto4": "HR System",
+        "info-proyecto4":"System for Human Resources, Assistance Control, Reports and Permits. García and Jaramillo Industrial Plant.",
+
+        "title-proyecto5":"MJ517 website",
+        "info-proyecto5":"Website for Youth Ministry 517 of the U.C.E. New life.",
+
+        "title-proyecto6":"Spiritual retirement website 2023",
+        "info-proyecto6":"Informative website on the spiritual retirement organized by Sub Directive 24 UCE.",
+
+        "title-proyecto7":"CJR24 website",
+        "info-proyecto7":"Website for the Regional Youth Committee of the Gran Chaco belonging to the U.C.E. (Currently under development).",
+
+        "title-proyecto8":"Carrobot with Arduino",
+        "info-proyecto8":"Mobile robot, assembly with wooden base, Arduino One, Bluetooth HC-05 module, HC-SR04 ultrasonic sensor.",
+
+        "title-proyecto9":"SmarthHouse with Arduino",
+        "info-proyecto9":"Smart house, made with Arduino. Control of lights, door and sensors from APP downloaded from PlayStore.",
+
+        "title-proyecto10":"Restaurant control system",
+        "info-proyecto10":"Final project of the subject of network programming technology (TPR) 2021.",
+
+        "title-proyecto11":"Landing Page Starbucks",
+        "info-proyecto11":"Practice applying knowledge and techniques of HTML and CSS in an unofficial site.",
+
+        "title-proyecto12":"Web portfolio",
+        "info-proyecto12":"Personal web, where some of my projects, my technical skills and a little about my training are found."
+
+
     },
 
     "contacto": {

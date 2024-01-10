@@ -10,14 +10,14 @@
     "home": {
         "home_text-1": "Hola! Soy",
         "home_text-3": "Desarrolladora web Front-End",
-        "parrafo-info": "Estudiante de Estadistica y programación enfocada al Desarrollo Web Frontend. Como persona amante a los diseños intuitivos y estéticamente agradables busco crear proyectos que brinden la mejor experiencia para el usuario.",
+        "parrafo-info": "Estudiante de Ingeniería Informática enfocado en todo lo que tenga que ver con programación. Como persona amante a los diseños intuitivos y estéticamente agradables busco crear proyectos que brinden la mejor experiencia para el usuario.",
         "cv_button": "Descargar CV",
         "contact_button": "Contacto"
     },
 
     "sobre-mi": {
         "title": "Sobre mí",
-        "texto_sobreMi": "Soy estudiante del pregrado de Estadística y estudiante autodidacta de Desarrollo Web enfocado en programación Frontend.<br>Aspiro conseguir empleo en el mundo del Desarrollo Web, adquirir experiencia, nuevos conocimientos y fortalecer mi vida profesional.<br><br>Soy una persona empática y entusiasta, con competencias enfocadas en el trabajo en equipo, comunicación asertiva, resolución de problemas, responsable y proactiva, me gusta aprender de los demás y superarme continuamente."
+        "texto_sobreMi": "Este es mi nombre, soy estudiante en Ingeniería Informática y a la vez sigo desarrolando mis habilidades a través de cursos online y con proyectos reales en distintas áreas.<br>Aspiro conseguir empleo en el mundo del Desarrollo Web tanto en el frontend como en el backend, adquirir experiencia, nuevos conocimientos y fortalecer mi vida profesional.<br><br>Soy una persona empática y entusiasta, con competencias enfocadas en el trabajo en equipo, comunicación asertiva, resolución de problemas, responsable y proactiva, me gusta aprender de los demás y superarme continuamente."
     },
 
     "habilidades": {
@@ -26,21 +26,49 @@
 
     "formacion": {
         "title": "Formación",
-        "formacion1": "Estadística",
-        "tiempo-formacion1": "2019 - En curso",
-        "formacion2": "Desarrolladora Full-Stack",
-        "tiempo-formacion2": "2022 - En curso",
-        "formacion3": "Contabilización de Operaciones Comerciales y Financieras"
+        "formacion1": "Primaria - Secundaria",
+        "tiempo-formacion1": "2004 - 2015",
+        "formacion2": "Ingeniería Informática",
+        "tiempo-formacion2": "2016 - 2024"
     },
 
     "proyectos": {
-        "title": "Proyectos",
-        "title-proyecto1": "Juego del Ahorcado",
-        "info-proyecto1": "Un juego donde el usuario debe adivinar la palabra secreta con un cierto número de oportunidades. La palabra se escoge de forma aleatoria por el programa y el usuario perderá en el momento en que la horca se complete.",
-        "title-proyecto2": "Portafolio",
-        "info-proyecto2": "Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación.",
-        "title-proyecto3": "Encriptador de Texto",
-        "info-proyecto3": "Un ecriptador donde el usuario puede escribir un texto y el encriptador lo codifica con llaves ya programadas. El encriptador también permite desencriptar el texto."
+        "title": "Projects",
+        "title-proyecto1": "Sistema de Gestión y Control de Inventarios CNS",
+        "info-proyecto1": "Realizado con Php y el framework Laravel para la Caja Nacional de Salud Distrital Yacuiba.",
+
+        "title-proyecto2": "Sistema Control de Producción",
+        "info-proyecto2": "Realizado con Php y el framework Laravel dirigido a Planta Industrial García y Jaramillo.",
+
+        "title-proyecto3": "Sistema de Cobros y Préstamos",
+        "info-proyecto3": "Control de prestamos de dinero con cierre de caja por día y  con reportes semanales o mensuales.",
+
+        "title-proyecto4": "Sistema RRHH",
+        "info-proyecto4":"Sistema para Recursos Humanos, control de asistencia, reportes y permisos. Planta Industrial García y Jaramillo.",
+
+        "title-proyecto5":"Sitio Web MJ517",
+        "info-proyecto5":"Página Web para el Ministerio Juvenil 517 de la Iglesia U.C.E. Vida Nueva.",
+
+        "title-proyecto6":"Sitio Web Retiro Espiritual 2023",
+        "info-proyecto6":"IPágina web informativa sobre el retiro espiritual organizado por la Sub Directiva 24 UCE.",
+
+        "title-proyecto7":"Sitio Web CJR24",
+        "info-proyecto7":"Página web para el Comité Juvenil Regional del Gran Chaco pertenenciente a la U.C.E. (Actualmente en desarrollo).",
+
+        "title-proyecto8":"CarRobot con Arduino",
+        "info-proyecto8":"Robot móvil, ensamblado y armado con base de madera, Arduino Uno, Módulo Bluetooth HC-05, sensor ultrasónico HC-SR04.",
+
+        "title-proyecto9":"SmarthHouse con Arduino",
+        "info-proyecto9":"Casa inteligente, hecha con Arduino. Control de luces, puerta y sensores desde app descargada de PlayStore.",
+
+        "title-proyecto10":">Sistema de Control Para Restaurante",
+        "info-proyecto10":"Proyecto final de la materia de Tecnología de Programación de Redes (TPR) 2021.",
+
+        "title-proyecto11":"Landing Page Starbucks",
+        "info-proyecto11":"Landing page, práctica aplicando conocimientos y técnicas de HTML y CSS en un sitio no oficial.",
+
+        "title-proyecto12":"Portafolio Web",
+        "info-proyecto12":"Web Personal, donde se encuentran algunos de mis proyectos, mis habilidades técnicas y un poco sobre mi formación."
     },
 
     "contacto": {
