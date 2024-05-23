@@ -9,15 +9,15 @@
 
     "home": {
         "home_text-1": "Hi! I'm",
-        "home_text-3": "Front-back web developer",
-        "parrafo-info": "Computer engineering student focused on everything that has to do with programming. As a loving person to intuitive and aesthetically pleasant designs I seek to create projects that provide the best experience for the user",
+        "home_text-3": "Full Stack Developer",
+        "parrafo-info": "With experience in developing web systems using PHP and Laravel, as well as creating dynamic websites and applications.",
         "cv_button": "Download CV",
         "contact_button": "Contact"
     },
 
     "sobre-mi": {
         "title": "About me",
-        "texto_sobreMi": "This is my name, I am a student in computer engineering and at the same time I continue to develop my skills through online courses and with real projects in different areas. I aspire , acquire experience, new knowledge and strengthen my professional life."
+        "texto_sobreMi": "This is my real name hehe, I graduated in Computer Engineering and I continue to develop my skills through online courses and real projects in various areas. <br>I consider myself an empathetic and enthusiastic person, with skills focused on teamwork, assertive communication and problem solving. Furthermore, I am responsible and proactive, always willing to learn from others and continually improve myself."
     },
 
     "habilidades": {

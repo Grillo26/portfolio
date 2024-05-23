@@ -10,7 +10,9 @@
     --beaver: #7494E4;
     --black: #141414;
     --eerie-black: hsl(207, 40%, 8%);
-    --jet: #000000;
+    --gradiente: radial-gradient(circle at top, #17004d, #000000, #000000  );
+    --jet: #000000; 
+
 }
 
 * {
@@ -46,7 +48,7 @@ html::-webkit-scrollbar-thumb {
 /* Header */
 
 .header {
-    background-color: var(--jet);
+    background-color: var(--gradiente);
     padding: .8rem 3rem;
     display: flex;
     justify-content: space-between;
@@ -263,9 +265,19 @@ span+span {
 /* Home */
 
 .home {
-    background-color: var(--jet);
+    /*background-color: var(--jet);*/
+    background: var(--gradiente);
     width: 100%;
     height: auto;
+    background-size: 400% 400%;
+    position:relative;
+    animation: cambiar 15s ease-in-out infinite;
+}
+@keyframes cambiar {
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+    
 }
 
 .container_image-home {
@@ -576,7 +588,7 @@ img.logo-sena {
     background-color: var(--jet);
     width: 100%;
     height: auto;
-    padding: 0 1rem 1rem 1rem;
+    padding: 0rem 1rem 1rem 1rem;
 }
 
 .proyectos h1 {
@@ -599,6 +611,7 @@ img.logo-sena {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .cards--proyectos {
@@ -608,11 +621,11 @@ img.logo-sena {
     min-width: 33rem;
     max-width: 38rem;
     box-shadow: 0 10px 16px -6px rgb(5 5 5 / 30%), 0 25px 10px -24px rgb(5 5 5 / 10%);
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-.card_JuegoAhorcado {
-    margin-bottom: 4rem;
-}
+
 
 .card_portafolio {
     margin-bottom: 4rem;
@@ -814,7 +827,7 @@ img.logo-sena {
     justify-content: center;
 }
 
-.btn_form--contacto button {
+.btn_form--contacto a {
     background: var(--white);
     border: none;
     font-family: 'Cooper Hewitt';
@@ -826,9 +839,11 @@ img.logo-sena {
     letter-spacing: 1px;
     cursor: pointer;
     transition: 1s all;
+    text-decoration: none;
+    text-align: center;
 }
 
-.btn_form--contacto button:hover {
+.btn_form--contacto a:hover {
     background: var(--jet);
     color: var(--white);
     font-weight: bold;
@@ -837,9 +852,10 @@ img.logo-sena {
     transition: all .4s ease;
 }
 
-.btn_form--contacto button:active {
+.btn_form--contacto a:active {
     background: #574438;
 }
+
 
 /* Footer */
 

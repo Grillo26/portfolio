@@ -9,15 +9,15 @@
 
     "home": {
         "home_text-1": "Hola! Soy",
-        "home_text-3": "Desarrolladora web Front-End",
-        "parrafo-info": "Estudiante de Ingeniería Informática enfocado en todo lo que tenga que ver con programación. Como persona amante a los diseños intuitivos y estéticamente agradables busco crear proyectos que brinden la mejor experiencia para el usuario.",
+        "home_text-3": "Desarrollador Full Stack",
+        "parrafo-info": "Con experiencia en el desarrollo de sistemas web utilizando PHP y Laravel, así como en la creación de sitios web y aplicaciones dinámicas.",
         "cv_button": "Descargar CV",
         "contact_button": "Contacto"
     },
 
     "sobre-mi": {
         "title": "Sobre mí",
-        "texto_sobreMi": "Este es mi nombre, soy estudiante en Ingeniería Informática y a la vez sigo desarrolando mis habilidades a través de cursos online y con proyectos reales en distintas áreas.<br>Aspiro conseguir empleo en el mundo del Desarrollo Web tanto en el frontend como en el backend, adquirir experiencia, nuevos conocimientos y fortalecer mi vida profesional.<br><br>Soy una persona empática y entusiasta, con competencias enfocadas en el trabajo en equipo, comunicación asertiva, resolución de problemas, responsable y proactiva, me gusta aprender de los demás y superarme continuamente."
+        "texto_sobreMi": "Este es mi nombre real jeje, soy egresado en Ingeniería Informática y sigo desarrollando mis habilidades a través de cursos online y proyectos reales en diversas áreas. <br>Me considero una persona empática y entusiasta, con competencias enfocadas en el trabajo en equipo, comunicación asertiva y resolución de problemas. Además, soy responsable y proactivo, siempre dispuesto a aprender de los demás y a superarme continuamente."
     },
 
     "habilidades": {

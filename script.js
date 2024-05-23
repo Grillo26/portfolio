@@ -2,6 +2,9 @@ const btn = document.getElementById('button');
 const sectionAll = document.querySelectorAll('section[id]');
 const inputName = document.querySelector('#nombre');
 const inputEmail = document.querySelector('#email');
+const inputAsunto = document.querySelector('#asunto');
+const inputMensaje = document.querySelector('#mensaje');
+const btnEnviar = document.querySelector('#btnEnviar');
 const flagsElement = document.getElementById('flags');
 const textsToChange = document.querySelectorAll('[data-section]');
 
@@ -84,3 +87,11 @@ document.querySelector('.go-top-container').addEventListener('click', () => {
         behavior: 'smooth'
     });
 });
+
+/*=======Formulario=======*/
+var mensaje;
+function enviar(){
+    
+    mensaje = `https://api.whatsapp.com/send?phone=59161989575&text=Hola!,%20%F0%9F%A4%A9%20Mi%20nombre%20es:${inputName.value}%20y%20deseo%20m%C3%A1s%20informaci%C3%B3n%20sobre%20${inputAsunto.value},%20${inputMensaje.value}.%20%20Muchas%20gracias%20y%20espero%20%20poder%20contar%20con%20tus%20servicios.%F0%9F%A4%97%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB`;
+    btnEnviar.href = mensaje;
+}
